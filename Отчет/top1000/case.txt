@@ -1,0 +1,9 @@
+gen2	163
+gent	55867
+datv	14428
+nomn	102014
+loc2	505
+loct	12097
+voct	101
+ablt	18503
+accs	27102

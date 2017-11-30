@@ -1,0 +1,11 @@
+def Ts1 "+N+Sg" -> "$" || _;
+def Ts2 "+N+Pl" -> "$s" || _;
+def Ty y -> ie || _ "$s";
+def Sib1 [...] -> e || "sh" _ "$s";
+def Sib2 [...] -> e || "ch" _ "$s";
+def Sib3 [...] -> e || x _ "$s";
+def Sib4 [...] -> e || z _ "$s";
+def Sib5 [...] -> e || s _ "$s";
+def Cl "$" -> 0 || _;
+def Cl2 "$s" -> 0 || _;
+regex Ts1 .o. Ts2 .o. Ty .o. Sib1 .o. Sib2 .o. Sib3 .o. Sib4 .o. Sib5 .o. Cl; 
